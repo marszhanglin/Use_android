@@ -1,20 +1,20 @@
     /**
      * if the package is already installed.
-     * ³ÌĞòÒÑ¾­´æÔÚ
+     * ç¨‹åºå·²ç»å­˜åœ¨
      */
     public static final int INSTALL_FAILED_ALREADY_EXISTS = -1;
 
 
     /**
      * if the package archive file is invalid.
-     * ÎŞĞ§µÄAPK
+     * æ— æ•ˆçš„APK
      */
     public static final int INSTALL_FAILED_INVALID_APK = -2;
 
 
     /**
      * if the URI passed in is invalid.
-     * ÎŞĞ§µÄÁ´½Ó
+     * æ— æ•ˆçš„é“¾æ¥
      */
     public static final int INSTALL_FAILED_INVALID_URI = -3;
 
@@ -22,21 +22,21 @@
     /**
      * if the package manager service found that the device
      *   didn't have enough storage space to install the app.
-     * Ã»ÓĞ×ã¹»µÄ´æ´¢¿Õ¼ä
+     * æ²¡æœ‰è¶³å¤Ÿçš„å­˜å‚¨ç©ºé—´
      */
     public static final int INSTALL_FAILED_INSUFFICIENT_STORAGE = -4;
 
 
     /**
      * if a package is already installed with the same name.
-     * ÒÑ´æÔÚÍ¬Ãû³ÌĞò
+     * å·²å­˜åœ¨åŒåç¨‹åº
      */
     public static final int INSTALL_FAILED_DUPLICATE_PACKAGE = -5;
 
 
     /**
      * if the requested shared user does not exist.
-     * ¹²ÏíÓÃ»§²»´æÔÚ
+     * å…±äº«ç”¨æˆ·ä¸å­˜åœ¨
      */
     public static final int INSTALL_FAILED_NO_SHARED_USER = -6;
 
@@ -44,7 +44,7 @@
     /**
      * if a previously installed package of the same name has a different signature
      *   than the new package (and the old package's data was not removed).
-     * ¸üĞÂ²»¼æÈİ
+     * æ›´æ–°ä¸å…¼å®¹
      */
     public static final int INSTALL_FAILED_UPDATE_INCOMPATIBLE = -7;
 
@@ -52,21 +52,21 @@
     /**
      * if the new package is requested a shared user which is already installed
      *   on the device and does not have matching signature.
-     * ¹²ÏíÓÃ»§²»¼æÈİ
+     * å…±äº«ç”¨æˆ·ä¸å…¼å®¹
      */
     public static final int INSTALL_FAILED_SHARED_USER_INCOMPATIBLE = -8;
 
 
     /**
      * if the new package uses a shared library that is not available.
-     * ¹²Ïí¿âÒÑ¶ªÊ§
+     * å…±äº«åº“å·²ä¸¢å¤±
      */
     public static final int INSTALL_FAILED_MISSING_SHARED_LIBRARY = -9;
 
 
     /**
      * if the new package uses a shared library that is not available.
-     * Ìæ»»Ê±ÎŞ·¨É¾³ı
+     * æ›¿æ¢æ—¶æ— æ³•åˆ é™¤
      */
     public static final int INSTALL_FAILED_REPLACE_COULDNT_DELETE = -10;
 
@@ -74,7 +74,7 @@
     /**
      * if the new package failed while optimizing and validating its dex files,
      *   either because there was not enough storage or the validation failed.
-     * ¿Õ¼ä²»×ã»òÑéÖ¤Ê§°Ü
+     * ç©ºé—´ä¸è¶³æˆ–éªŒè¯å¤±è´¥
      */
     public static final int INSTALL_FAILED_DEXOPT = -11;
 
@@ -82,7 +82,7 @@
     /**
      * if the new package failed because the current SDK version is older than
      * that required by the package.
-     * ÏµÍ³°æ±¾¹ı¾É
+     * ç³»ç»Ÿç‰ˆæœ¬è¿‡æ—§
      */
     public static final int INSTALL_FAILED_OLDER_SDK = -12;
 
@@ -90,7 +90,7 @@
     /**
      * if the new package failed because it contains a content provider with the
      *   same authority as a provider already installed in the system.
-     * ´æÔÚÍ¬ÃûµÄÄÚÈİÌá¹©Õß
+     * å­˜åœ¨åŒåçš„å†…å®¹æä¾›è€…
      */
     public static final int INSTALL_FAILED_CONFLICTING_PROVIDER = -13;
 
@@ -98,7 +98,7 @@
     /**
      * if the new package failed because the current SDK version is newer than
      *   that required by the package.
-     * ÏµÍ³°æ±¾¹ıĞÂ
+     * ç³»ç»Ÿç‰ˆæœ¬è¿‡æ–°
      */
     public static final int INSTALL_FAILED_NEWER_SDK = -14;
 
@@ -107,7 +107,7 @@
      * if the new package failed because it has specified that it is a test-only
      *   package and the caller has not supplied the {@link #INSTALL_ALLOW_TEST}
      *   flag.
-     * µ÷ÓÃÕß²»±»ÔÊĞí²âÊÔµÄ²âÊÔ³ÌĞò
+     * è°ƒç”¨è€…ä¸è¢«å…è®¸æµ‹è¯•çš„æµ‹è¯•ç¨‹åº
      */
     public static final int INSTALL_FAILED_TEST_ONLY = -15;
 
@@ -115,14 +115,14 @@
     /**
      * if the package being installed contains native code, but none that is
      *   compatible with the the device's CPU_ABI.
-     * °üº¬µÄ±¾»ú´úÂë²»¼æÈİCPU_ABI
+     * åŒ…å«çš„æœ¬æœºä»£ç ä¸å…¼å®¹CPU_ABI
      */
     public static final int INSTALL_FAILED_CPU_ABI_INCOMPATIBLE = -16;
 
 
     /**
      * if the new package uses a feature that is not available.
-     * Ê¹ÓÃÁËÒ»¸öÎŞĞ§µÄÌØĞÔ
+     * ä½¿ç”¨äº†ä¸€ä¸ªæ— æ•ˆçš„ç‰¹æ€§
      */
     public static final int INSTALL_FAILED_MISSING_FEATURE = -17;
 
@@ -130,14 +130,14 @@
 // ------ Errors related to sdcard
     /**
      * if a secure container mount point couldn't be accessed on external media.
-     * SD¿¨·ÃÎÊÊ§°Ü
+     * SDå¡è®¿é—®å¤±è´¥
      */
     public static final int INSTALL_FAILED_CONTAINER_ERROR = -18;
 
 
     /**
      * if the new package couldn't be installed in the specified install location.
-     * ÎŞĞ§µÄ°²×°Â·¾¶
+     * æ— æ•ˆçš„å®‰è£…è·¯å¾„
      */
     public static final int INSTALL_FAILED_INVALID_INSTALL_LOCATION = -19;
 
@@ -145,64 +145,81 @@
     /**
      * if the new package couldn't be installed in the specified install
      *   location because the media is not available.
-     * SD¿¨²»¿ÉÓÃ
+     * SDå¡ä¸å¯ç”¨
      */
     public static final int INSTALL_FAILED_MEDIA_UNAVAILABLE = -20;
 
 
     /**
      * if the new package couldn't be installed because the verification timed out.
-     * ÑéÖ¤³¬Ê±
+     * éªŒè¯è¶…æ—¶
      */
     public static final int INSTALL_FAILED_VERIFICATION_TIMEOUT = -21;
 
 
     /**
      * if the new package couldn't be installed because the verification did not succeed.
-     * ÑéÖ¤Ê§°Ü
+     * éªŒè¯å¤±è´¥
      */
     public static final int INSTALL_FAILED_VERIFICATION_FAILURE = -22;
 
 
     /**
      * if the package changed from what the calling program expected.
-     * Ô¤ÆÚµÄÓ¦ÓÃ±»¸Ä±ä
+     * é¢„æœŸçš„åº”ç”¨è¢«æ”¹å˜
      */
     public static final int INSTALL_FAILED_PACKAGE_CHANGED = -23;
+
+    /**
+     * Installation return code: this is passed to the {@link IPackageInstallObserver} by
+     * {@link #installPackage(android.net.Uri, IPackageInstallObserver, int)} if
+     * the new package is assigned a different UID than it previously held.
+     * @hide
+     */
+    public static final int INSTALL_FAILED_UID_CHANGED = -24;
+
+    /**
+     * Installation return code: this is passed to the {@link IPackageInstallObserver} by
+     * {@link #installPackage(android.net.Uri, IPackageInstallObserver, int)} if
+     * the new package has an older version code than the currently installed package.
+     * @hide
+     */
+    public static final int INSTALL_FAILED_VERSION_DOWNGRADE = -25;
+
 
 
     /**
      * if the parser was given a path that is not a file, or does not end
      *   with the expected '.apk' extension.
-     * ½âÎöÊ§°Ü£¬²»ÊÇAPK
+     * è§£æå¤±è´¥ï¼Œä¸æ˜¯APK
      */
     public static final int INSTALL_PARSE_FAILED_NOT_APK = -100;
 
 
     /**
      * if the parser was unable to retrieve the AndroidManifest.xml file.
-     * ½âÎöÊ§°Ü£¬ÎŞ·¨ÌáÈ¡Manifest
+     * è§£æå¤±è´¥ï¼Œæ— æ³•æå–Manifest
      */
     public static final int INSTALL_PARSE_FAILED_BAD_MANIFEST = -101;
 
 
     /**
      * if the parser encountered an unexpected exception.
-     * ½âÎöÊ§°Ü£¬ÎŞ·¨Ô¤ÆÚµÄÒì³£
+     * è§£æå¤±è´¥ï¼Œæ— æ³•é¢„æœŸçš„å¼‚å¸¸
      */
     public static final int INSTALL_PARSE_FAILED_UNEXPECTED_EXCEPTION = -102;
 
 
     /**
      * if the parser did not find any certificates in the .apk.
-     * ½âÎöÊ§°Ü£¬ÕÒ²»µ½Ö¤Êé
+     * è§£æå¤±è´¥ï¼Œæ‰¾ä¸åˆ°è¯ä¹¦
      */
     public static final int INSTALL_PARSE_FAILED_NO_CERTIFICATES = -103;
 
 
     /**
      * if the parser found inconsistent certificates on the files in the .apk.
-     * ½âÎöÊ§°Ü£¬Ö¤Êé²»Ò»ÖÂ
+     * è§£æå¤±è´¥ï¼Œè¯ä¹¦ä¸ä¸€è‡´
      */
     public static final int INSTALL_PARSE_FAILED_INCONSISTENT_CERTIFICATES = -104;
 
@@ -210,28 +227,28 @@
     /**
      * if the parser encountered a CertificateEncodingException in one of the
      *   files in the .apk.
-     * ½âÎöÊ§°Ü£¬Ö¤Êé±àÂëÒì³£
+     * è§£æå¤±è´¥ï¼Œè¯ä¹¦ç¼–ç å¼‚å¸¸
      */
     public static final int INSTALL_PARSE_FAILED_CERTIFICATE_ENCODING = -105;
 
 
     /**
      * if the parser encountered a bad or missing package name in the manifest.
-     * ½âÎöÊ§°Ü£¬manifestÖĞµÄ°üÃû´íÎó»ò¶ªÊ§
+     * è§£æå¤±è´¥ï¼Œmanifestä¸­çš„åŒ…åé”™è¯¯æˆ–ä¸¢å¤±
      */
     public static final int INSTALL_PARSE_FAILED_BAD_PACKAGE_NAME = -106;
 
 
     /**
      * if the parser encountered a bad shared user id name in the manifest.
-     * ½âÎöÊ§°Ü£¬manifestÖĞµÄ¹²ÏíÓÃ»§´íÎó
+     * è§£æå¤±è´¥ï¼Œmanifestä¸­çš„å…±äº«ç”¨æˆ·é”™è¯¯
      */
     public static final int INSTALL_PARSE_FAILED_BAD_SHARED_USER_ID = -107;
 
 
     /**
      * if the parser encountered some structural problem in the manifest.
-     * ½âÎöÊ§°Ü£¬manifestÖĞ³öÏÖ½á¹¹ĞÔ´íÎó
+     * è§£æå¤±è´¥ï¼Œmanifestä¸­å‡ºç°ç»“æ„æ€§é”™è¯¯
      */
     public static final int INSTALL_PARSE_FAILED_MANIFEST_MALFORMED = -108;
 
@@ -239,13 +256,13 @@
     /**
      * if the parser did not find any actionable tags (instrumentation or application)
      *   in the manifest.
-     * ½âÎöÊ§°Ü£¬manifestÖĞÃ»ÓĞactionable tags
+     * è§£æå¤±è´¥ï¼Œmanifestä¸­æ²¡æœ‰actionable tags
      */
     public static final int INSTALL_PARSE_FAILED_MANIFEST_EMPTY = -109;
 
 
     /**
      * if the system failed to install the package because of system issues.
-     * ÏµÍ³ÎÊÌâµ¼ÖÂ°²×°Ê§°Ü
+     * ç³»ç»Ÿé—®é¢˜å¯¼è‡´å®‰è£…å¤±è´¥
      */
     public static final int INSTALL_FAILED_INTERNAL_ERROR = -110;
