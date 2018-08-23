@@ -219,7 +219,7 @@
 
     /**
      * if the parser found inconsistent certificates on the files in the .apk.
-     * 解析失败，证书不一致
+     * 解析失败，证书不一致   前后签名不一致
      */
     public static final int INSTALL_PARSE_FAILED_INCONSISTENT_CERTIFICATES = -104;
 
