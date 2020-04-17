@@ -198,7 +198,7 @@
 
     /**
      * if the parser was unable to retrieve the AndroidManifest.xml file.
-     * 解析失败，无法提取Manifest 。  设备证书与签名证书不一致
+     * 解析失败，无法提取Manifest 。  《apk打包有问题》
      */
     public static final int INSTALL_PARSE_FAILED_BAD_MANIFEST = -101;
 
