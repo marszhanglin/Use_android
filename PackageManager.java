@@ -212,7 +212,7 @@
 
     /**
      * if the parser did not find any certificates in the .apk.
-     * 解析失败，找不到证书   未签名
+     * 解析失败，找不到证书   未签名 无原生签名
      */
     public static final int INSTALL_PARSE_FAILED_NO_CERTIFICATES = -103;
 
